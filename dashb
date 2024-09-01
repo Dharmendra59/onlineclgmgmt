@@ -1,0 +1,44 @@
+{% extends "AdminMaster.html" %}
+{% block section %}
+    <div class="container">
+
+    </div><br>
+    <div class="row">
+    <div class="col-md-3" style="min-height: 150px; background: coral; margin-left: 4%">
+        <a href="/dashboard" target="_blank" ><h2 style="text-align: center; color: white"><b>Dashboard</b></h2></a>
+    </div>
+    <div class="col-md-3" style="min-height: 150px; background: orange; margin-left: 4%">
+                <a href="/discussion" target="_blank" ><h2 style="text-align: center; color: white"><b>Discussion Board</b></h2></a>
+
+    </div>
+    <div class="col-md-3" style="min-height: 150px; background: greenyellow; margin-left: 4%">
+                <a href="/study" target="_blank" ><h2 style="text-align: center; color: white"><b>Add Study</b></h2></a>
+
+    </div>
+
+    </div>
+    <div class="row">
+    <div class="col-md-3" style="min-height: 150px; background: coral; margin-left: 4%; margin-top: 5%">
+                <a href="/addmanagement" target="_blank" ><h2 style="text-align: center; color: white"><b>Add Management</b></h2></a>
+
+    </div>
+    <div class="col-md-3" style="min-height: 150px; background: orange; margin-left: 4%; margin-top: 5%">
+                <a href="/feedback" target="_blank" ><h2 style="text-align: center; color: white"><b>Feedback Management</b></h2></a>
+
+    </div>
+    <div class="col-md-3" style="min-height: 150px; background: greenyellow; margin-left: 4%; margin-top: 5%">
+                <a href="/contactmgmt" target="_blank" ><h2 style="text-align: center; color: white"><b>Conatct Management</b></h2></a>
+
+    </div>
+        <div class="col-md-2"></div>
+     <div class="col-md-3" style="min-height: 150px; background: burlywood; margin-left: 4%; margin-top: 5%">
+                <a href="/changepass" target="_blank" ><h2 style="text-align: center; color: white"><b>Change Password</b></h2></a>
+
+    </div>
+    <div class="col-md-3" style="min-height: 150px; background: darkkhaki; margin-left: 4%; margin-top: 5%">
+                <a href="/log" target="_blank" ><h2 style="text-align: center; color: white"><b>LogOut</b></h2></a>
+
+    </div>
+    </div>
+
+{% endblock %}
